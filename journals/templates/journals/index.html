@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h1>Download the journals here</h1>
+{%for journal in journals%}
+<a href="download/{{journal.id}}" download>{{journal.name}}</a></br>
+{% endfor %}
+</body>
+</html>
